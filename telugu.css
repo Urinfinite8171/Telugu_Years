@@ -1,0 +1,79 @@
+
+@media (min-width:320px){
+ 
+  div {
+    background-color: rgb(103, 255, 204);
+    border-radius: 20px;
+    box-shadow: 5px 5px 10px rgb(159, 159, 159);
+    padding: 20px;
+  }
+  .form {
+    width: 80%;
+    height: auto;
+  }
+  .form input{
+    width: 60%;
+    padding: 10px;
+    border-radius:15px;
+    border-style: none;
+    box-shadow: 1px 5px 5px rgb(170, 170, 170);
+    outline: none;
+  }
+  .form button{
+    margin-top: 10px;
+    width: 20%;
+    padding: 10px;
+    margin-left: 20px;
+    border-radius:10px;
+    border-style: none;
+    box-shadow: 5px 4px 8px rgb(104, 103, 103);
+    background-color: darkgreen;
+    color:white;
+  }
+  .form button:hover{
+    cursor: pointer;
+    background-color: rgb(39, 163, 39);
+  }
+  #cheer{
+    color:rgb(0, 0, 0);
+    font-family:'Times New Roman', Times, serif;
+  }
+}  
+
+@media (min-width:480px){
+div {
+    background-color: rgb(103, 255, 204);
+    border-radius: 20px;
+    box-shadow: 5px 5px 10px rgb(159, 159, 159);
+    padding: 20px;
+  }
+  .form {
+    width: max-content;
+    height: auto;
+  }
+  .form input{
+    padding: 10px;
+    border-radius:15px;
+    border-style: none;
+    box-shadow: 1px 5px 5px rgb(170, 170, 170);
+    outline: none;
+  }
+  .form button{
+    padding: 10px;
+    margin-left: 20px;
+    border-radius:10px;
+    border-style: none;
+    box-shadow: 5px 4px 8px rgb(104, 103, 103);
+    background-color: darkgreen;
+    color:white;
+  }
+  .form button:hover{
+    cursor: pointer;
+    background-color: rgb(39, 163, 39);
+  }
+  #cheer{
+    color:rgb(0, 0, 0);
+    font-weight: bold;
+  }
+}
+  
